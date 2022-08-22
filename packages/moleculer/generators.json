@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "moleculer",
+  "version": "0.0.1",
+  "generators": {
+    "moleculer": {
+      "factory": "./src/generators/moleculer/generator",
+      "schema": "./src/generators/moleculer/schema.json",
+      "description": "moleculer generator"
+    }
+  }
+}
